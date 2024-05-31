@@ -112,7 +112,7 @@ header {
     font-size: 1.5em;
   }
 
-  .menu-toggle-checkbox:checked + .mobile-menu-toggle + .mobile-nav-menu {
+  .menu-toggle-checkbox:checked ~ .mobile-menu-toggle ~ .mobile-nav-menu {
     display: flex; /* Show mobile nav menu when checkbox is checked */
   }
 
