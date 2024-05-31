@@ -3,25 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
     <title>Unga's Skate Shop</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
       <div class="header-container">
-        <!-- Logo and Brand Name -->
         <div class="logo">
           <img src="Banner1.png" alt="Unga's Skate Shop Logo" />
           <h1>Unga's Skate Shop</h1>
         </div>
 
-        <!-- Mobile Menu Toggle (Checkbox Hack) -->
         <input type="checkbox" id="menu-toggle" class="menu-toggle-checkbox" />
         <label for="menu-toggle" class="mobile-menu-toggle">
           <span class="menu-icon">☰</span>
         </label>
 
-        <!-- Navigation Menu -->
         <nav class="nav-menu">
           <ul>
             <li><a href="home.html">Home</a></li>
@@ -41,13 +38,11 @@
           </ul>
         </nav>
 
-        <!-- Search Bar -->
         <div class="search-bar">
           <input type="text" placeholder="Search..." />
           <button type="submit"><i class="search-icon">🔍</i></button>
         </div>
 
-        <!-- Icons and Links -->
         <div class="user-icons">
           <a href="login.html"><i class="user-icon">👤</i></a>
           <a href="wishlist.html"><i class="wishlist-icon">❤</i></a>
@@ -57,7 +52,6 @@
         </div>
       </div>
 
-      <!-- Mobile Navigation Menu -->
       <nav class="mobile-nav-menu">
         <ul>
           <li><a href="home.html">Home</a></li>
@@ -77,5 +71,40 @@
         </ul>
       </nav>
     </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section class="hero">
+        <img src="Banner1.png" alt="Custom Rollerskates" />
+        <div class="hero-text">
+          <h2>Customize Your Ride</h2>
+          <p>
+            Create the perfect rollerskates that match your style and
+            personality.
+          </p>
+          <a href="customization.html" class="cta-button">Get Started</a>
+        </div>
+      </section>
+
+      <!-- Featured Products -->
+      <section class="featured-products">
+        <h2>Featured Products</h2>
+        <div class="products-grid">
+          <div class="product">
+            <img src="path_to_product1.jpg" alt="Product 1" />
+            <h3>Rollerskate Model 1</h3>
+            <p>$120.00</p>
+            <a href="product1.html" class="product-button">View Details</a>
+          </div>
+          <div class="product">
+            <img src="path_to_product2.jpg" alt="Product 2" />
+            <h3>Rollerskate Model 2</h3>
+            <p>$150.00</p>
+            <a href="product2.html" class="product-button">View Details</a>
+          </div>
+          <!-- Add more products as needed -->
+        </div>
+      </section>
+    </main>
   </body>
 </html>

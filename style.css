@@ -1,4 +1,9 @@
 /* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
 header {
   display: flex;
   flex-direction: column;
@@ -112,7 +117,7 @@ header {
     font-size: 1.5em;
   }
 
-  .menu-toggle-checkbox:checked ~ .mobile-menu-toggle ~ .mobile-nav-menu {
+  .menu-toggle-checkbox:checked ~ .mobile-nav-menu {
     display: flex; /* Show mobile nav menu when checkbox is checked */
   }
 
@@ -124,3 +129,73 @@ header {
     margin-left: 10px; /* Reduce spacing between icons */
   }
 }
+
+/* Hero Section */
+.hero {
+  position: relative;
+  text-align: center;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.cta-button:hover {
+  background-color: #0056b3;
+}
+
+/* Featured Products */
+.featured-products {
+  padding: 20px;
+  text-align: center;
+}
+
+.featured-products h2 {
+  margin-bottom: 20px;
+}
+
+.products-grid {
+  display: flex;
+  flex-direction: column;
+}
+
+.product {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.product img {
+  width: 100%;
+  height: auto;
+}
+
+.product h3 {
+  margin: 10px 0;
+}
+
+.product p {
+  color: #007bff;

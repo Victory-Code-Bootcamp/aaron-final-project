@@ -1,0 +1,14 @@
+{
+  "folders": [
+	{
+		"path": "."
+	},
+	{
+		"name": "aaron-bootcamp",
+		"path": "../aaron-bootcamp"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "aaron-final-project"
+  }
+}
