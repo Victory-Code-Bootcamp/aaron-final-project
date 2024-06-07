@@ -167,8 +167,18 @@ h1 {
   font-size: clamp(1.5rem, 5vw, 3rem);
 }
 
+iframe {
+  margin: 0 auto;
+  display: block;
+}
+iframe {
+  margin: 0 auto;
+  display: block;
+
+
 hr {
   height: 5px;
   width: 100%;
   background-color: purple;
+
 }
