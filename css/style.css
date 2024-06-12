@@ -54,13 +54,16 @@ body {
   background-color: antiquewhite;
   padding: 0.875rem;
 }
+a {
+  cursor: pointer;
+}
 
 p {
   margin-top: 0.125rem;
 }
 
-a {
-  cursor: pointer;
+img {
+  height: 80px;
 }
 
 input[type="checkbox"] {
@@ -154,10 +157,6 @@ input[type="checkbox"]:checked ~ label .line-3 {
   transform: translateX(-8px) rotate(45deg) translateY(-8px);
 }
 
-img {
-  height: 80px;
-}
-
 .label {
   display: flex;
   align-items: center;
@@ -171,14 +170,9 @@ iframe {
   margin: 0 auto;
   display: block;
 }
-iframe {
-  margin: 0 auto;
-  display: block;
-
 
 hr {
   height: 5px;
   width: 100%;
   background-color: purple;
-
 }
