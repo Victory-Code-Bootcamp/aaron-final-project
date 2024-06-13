@@ -62,10 +62,6 @@ p {
   margin-top: 0.125rem;
 }
 
-img {
-  height: 80px;
-}
-
 input[type="checkbox"] {
   display: none;
 }
@@ -162,6 +158,38 @@ input[type="checkbox"]:checked ~ label .line-3 {
   align-items: center;
 }
 
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px 10px;
+}
+
+.gallery img {
+  width: 100%;
+  max-width: 350px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.gallery iframe {
+  width: 100%;
+  max-width: 350px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.gallery::after {
+  content: "";
+  width: 350px;
+}
+
 h1 {
   font-size: clamp(1.5rem, 5vw, 3rem);
 }
@@ -175,4 +203,14 @@ hr {
   height: 5px;
   width: 100%;
   background-color: purple;
+}
+
+.logo {
+  height: 80px;
+}
+
+.skates {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
 }
