@@ -219,3 +219,6 @@ hr {
 footer {
   font-size: 50px;
 }
+i {
+  cursor: pointer;
+}
