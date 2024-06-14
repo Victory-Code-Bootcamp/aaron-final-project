@@ -207,6 +207,7 @@ hr {
 
 .logo {
   height: 80px;
+  cursor: pointer;
 }
 
 .skates {
