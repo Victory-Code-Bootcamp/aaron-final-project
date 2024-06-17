@@ -62,6 +62,10 @@ p {
   margin-top: 0.125rem;
 }
 
+footer {
+  text-align: center;
+}
+
 input[type="checkbox"] {
   display: none;
 }
